@@ -1,5 +1,5 @@
 // PIN Unlock System
-const correctPin = "1234"; 
+const correctPin = "312"; 
 
 function checkPin() {
     const enteredPin = document.getElementById("pin-input").value;
