@@ -30,7 +30,7 @@ function nominate(category) {
 function updateWinners() {
     let nominations = JSON.parse(localStorage.getItem("nominations")) || {};
     
-    let categories = ["programmer", "actor", "singer", "allrounder", "kozhi", "designer", "speaker"];
+    let categories = ["programmer", "actor", "singer", "allrounder","talent", "kozhi", "designer", "speaker"];
 
     categories.forEach(category => {
         let winner = "Not decided yet";
